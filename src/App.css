@@ -1,0 +1,6 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: url('./components/images/dashboard-bg-img.png') no-repeat center center;
+    background-size: cover;
+  }
