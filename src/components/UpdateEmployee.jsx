@@ -94,4 +94,7 @@ function UpdateEmployee() {
   )
 }
 
-export default UpdateEmployee
+export default UpdateEmployee;
+
+
+
