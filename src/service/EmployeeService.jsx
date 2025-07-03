@@ -1,5 +1,5 @@
 import axios from 'axios'; 
-const EMPLOYEE_S_APIBASE_URL ="http://localhost:3030/employees"
+const EMPLOYEE_S_APIBASE_URL ="http://codingtutorial.cpqciqgqelz4.eu-north-1.rds.amazonaws.com:3030/employees"
 class EmployeeService {
     saveEmployee(employee){
            return axios.post(EMPLOYEE_S_APIBASE_URL, employee)
