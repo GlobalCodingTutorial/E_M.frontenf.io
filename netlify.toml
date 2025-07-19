@@ -1,0 +1,11 @@
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = """
+      default-src 'self';
+      script-src 'self';
+      img-src 'self' data: https:;
+      connect-src 'self' http://localhost:8080 https://your-api.com;
+      style-src 'self' 'unsafe-inline';
+      font-src 'self' data:;
+    """
