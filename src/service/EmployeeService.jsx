@@ -1,5 +1,5 @@
 import axios from "axios";
-const EMPLOYEE_S_APIBASE_URL = "http://ec2-51-20-95-167.eu-north-1.compute.amazonaws.com:8080/employees";
+const EMPLOYEE_S_APIBASE_URL ="https://ems-backend-i27s.onrender.com/employees";
 class EmployeeService {
   saveEmployee(employee) {
     return axios.post(EMPLOYEE_S_APIBASE_URL, employee);
